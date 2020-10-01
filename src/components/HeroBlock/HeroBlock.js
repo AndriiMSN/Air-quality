@@ -4,7 +4,7 @@ import './HeroBlock.scss'
 const HeroBlock = ({ title, links, logos }) => {
   const logosImages = logos.map((logoItem, i) => <img src={logoItem} alt="partner-logo" className="hero-partners-item"
     key={i} />);
-  const navItems = links.map((link, i) => <a href={link.href}
+  const navItems = links.map((link, i) => <a onClick={() => { setBurgerButton(false) }} href={link.href}
     className="hero-navigation-item"
     key={i}>{link.title}</a>);
 
@@ -48,7 +48,7 @@ const HeroBlock = ({ title, links, logos }) => {
           {navItems}
         </nav>
         <h1 className="hero-title">{title}</h1>
-        <a href="#" className="hero-link">Отследить</a>
+        <a href="#quality" className="hero-link">Отследить</a>
       </div>
     </section>
   );

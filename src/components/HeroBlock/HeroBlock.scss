@@ -86,13 +86,16 @@
   height: 909px;
   min-height: 100vh;
   @media (max-width: 767.98px) {
-    height: 100vh;
+    min-height: 100vh;
+    height: 600px;
   }
 
   .container {
     position: relative;
     min-height: 100vh;
     @media (max-width: 767.98px) {
+      min-height: 100vh;
+      height: 600px;
     }
   }
 
@@ -194,6 +197,14 @@
       text-align: center;
       padding: 24px 0;
       margin-left: -40px;
+
+      &::before {
+        content: url(../../assets/arrow-hero-down.png);
+        position: absolute;
+        top: calc(100% + 27px);
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
     }
   }
 }

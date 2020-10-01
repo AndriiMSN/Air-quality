@@ -17,7 +17,7 @@ const TOKEN = 'pk.eyJ1IjoiYW5kcmlpbXNuIiwiYSI6ImNrZGYzZ200YTJudXQyeHNjMjk2OTk2bj
 
 const geolocateStyle = {
   position: 'absolute',
-  top: 0,
+  top: '29px',
   left: "32px",
   padding: '10px'
 };
