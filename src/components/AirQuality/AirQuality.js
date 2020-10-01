@@ -14,45 +14,75 @@ const AirQuality = () => {
     if (num > 300) { return '940000' }
 
   }
+
+
   const CITIES = [
     {
-      latitude: 50,
-      longitude: 31,
+      latitude: 50.4501,
+      longitude: 30.5234,
+      number: 20,
+      background: BackgroundColor(20),
+      state: "Киевская",
+      city: "Киев",
+      street: "вулиця Хрещатик, 14",
+      date: "20 сетнября 2020, 19:00"
+    },
+    {
+      latitude: 48.2819800,
+      longitude: 37.17585,
       number: null,
-      background: BackgroundColor(null)
+      background: BackgroundColor(null),
+      state: "Донецкая",
+      city: "Покровск",
+      street: "м-н Шахтарський",
+      date: "20 сетнября 2020, 19:00"
     },
     {
-      latitude: 50,
-      longitude: 33,
-      number: 50,
-      background: BackgroundColor(50)
+      latitude: 49.9935,
+      longitude: 36.2304,
+      number: 163,
+      background: BackgroundColor(163),
+      state: "Харьковская",
+      city: "Харьков",
+      street: "вулиця Полтавський Шлях, 126",
+      date: "20 сетнября 2020, 19:00"
+    }, {
+      latitude: 46.4825,
+      longitude: 30.7233,
+      number: 67,
+      background: BackgroundColor(67),
+      state: "Одесская",
+      city: "Одесса",
+      street: "вулиця Дерибасовская, 14",
+      date: "20 сетнября 2020, 19:00"
+    }, {
+      latitude: 49.8397,
+      longitude: 24.0297,
+      number: 128,
+      background: BackgroundColor(128),
+      state: "Львівська",
+      city: "Львів",
+      street: "вулиця Соборна, 14",
+      date: "20 сетнября 2020, 19:00"
+    }, {
+      latitude: 48.4647,
+      longitude: 35.0462,
+      number: 214,
+      background: BackgroundColor(214),
+      state: "Дніпровська",
+      city: "Дніпро",
+      street: "вулиця Металургів, 14",
+      date: "20 сетнября 2020, 19:00"
     },
     {
-      latitude: 50,
-      longitude: 35,
-      number: 100,
-      background: BackgroundColor(100)
-    }, {
-      latitude: 50,
-      longitude: 37,
-      number: 150,
-      background: BackgroundColor(150)
-    }, {
-      latitude: 50,
-      longitude: 39,
-      number: 200,
-      background: BackgroundColor(200)
-    }, {
-      latitude: 50,
-      longitude: 27,
-      number: 300,
-      background: BackgroundColor(300)
-    },
-    {
-      latitude: 50,
-      longitude: 29,
+      latitude: 48.5079,
+      longitude: 32.2623,
       number: 301,
-      background: BackgroundColor(301)
+      background: BackgroundColor(301),
+      state: "Кропивни́цка",
+      city: "Кропивни́цкий",
+      street: "вулиця Центральна, 14",
+      date: "20 сетнября 2020, 19:00"
     }
   ]
 

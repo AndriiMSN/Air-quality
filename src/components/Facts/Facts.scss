@@ -57,10 +57,11 @@
 
   &-pagination {
     display: flex;
-    justify-content: space-around;
     margin-top: 66px;
+    justify-content: center;
     @media (max-width: 767.98px) {
       margin-top: 0;
+      justify-content: space-around;
     }
 
     &-bullet {
@@ -73,9 +74,12 @@
       opacity: 1;
       margin-top: 25px;
       transition: 0.3s background-color;
+
+      margin: 0 20px;
       @media (max-width: 767.98px) {
         width: 12px;
         height: 12px;
+        margin: 0;
       }
     }
 
